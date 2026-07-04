@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+/*Header-Section*/
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+}
+nav ul{
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+nav ul li{
+    padding: 0 8px;
+}
+nav ul li:hover{
+    background-color: rgb(88, 90, 196);
+}
+nav ul li a{
+    text-decoration: none;
+}
+/*Hero-Section*/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 800px;
+    padding: 0 60px;
+}
+.banner-content{
+    flex: 1;
+    text-align: left;
+}
+.banner-img-container{
+    flex: 1;
+    /* display: flex;
+    justify-content: center; */
+}
+.banner-img-container img{
+    width: 500px;
+    
+}

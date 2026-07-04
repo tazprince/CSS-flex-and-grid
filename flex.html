@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>css flex</title>
+    <style>
+        .container{
+            display: flex;
+            /* flex-direction: column-reverse; */
+            border: 2px solid teal;
+            height: 300px;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+            flex-wrap: wrap;
+            
+        }
+        .box{
+            border: 2px solid tan;
+            height: 100px;
+            padding-top: 50px;
+        }
+        .parent-div{
+            display: flex;
+            justify-content: right;
+            
+        }
+        .child-div{
+            border: 2px solid red;
+            width: 100px;
+            padding-left: 40px;
+        }
+    </style>
+  </head>
+  <body>
+    <!-- div>p -->
+    <!-- div>section>article>h2 -->
+    <!-- div>section*3>article>h2 -->
+    <!-- div>h2+p*2 -->
+    <!-- .container>h2.heading#first-heading -->
+    <!-- h2{welcome} -->
+    <!-- .containe>h2.heading{welcome} -->
+    <!-- tab marle upor theke niche likha jabe -->
+    <!-- ul.list>li.item#item*5{item $} -->
+     <!-- .container>.box*5{box-$} -->
+     <div class="container">
+        <div class="box">box-1</div>
+        <div class="box">box-2</div>
+        <div class="box">box-3</div>
+        <div class="box">box-4</div>
+        <div class="box">box-6</div>
+        <div class="box">box-7</div>
+        <div class="box">box-8</div>
+        <div class="box">box-9</div>
+        <div class="box">box-10</div>
+        <div class="box">box-11</div>
+     </div>
+     <div class="parent-div">
+        <div class="child-div">child-div</div>
+     </div>
+  </body>
+</html>
